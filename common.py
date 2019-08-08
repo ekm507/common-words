@@ -1,6 +1,6 @@
 import io
 
-textBook = io.open('snowcrash.txt', 'r', encoding='utf-8')
+textBook = io.open('input.txt', 'r', encoding='utf-8')
 
 wordList = list()
 for line in textBook:
